@@ -11,5 +11,5 @@ app.use(
 );
 
 app.listen(4000, () => {
-  console.log("Listening");
+  console.log("Server is Listening at localhost:4000");
 });
