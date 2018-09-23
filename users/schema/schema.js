@@ -9,7 +9,7 @@ const users = [
 
 const UserType = new GraphQLObjectType({
   name: "User",
-  fileds: {
+  fields: {
     id: { type: GraphQLString },
     firstName: { type: GraphQLString },
     age: { type: GraphQLInt }
